@@ -1,5 +1,5 @@
 var gELBall
-function onBallClicked(elBall) {
+function onBallClicked(elBall, maxDiameter) {
 
     var ballHeight = parseInt(elBall.style.height) || 100
     var ballWidth = parseInt(elBall.style.width) || 100
@@ -10,7 +10,7 @@ function onBallClicked(elBall) {
     ballWidth += randSize
     lineHeight += randSize
 
-    if (ballHeight > 400) {
+    if (ballHeight > maxDiameter) {
         ballHeight = 100
         ballWidth = 100
         lineHeight = 100
