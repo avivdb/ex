@@ -9,9 +9,14 @@ h1 {
 .ball {
     width: 100px;
     height: 100px;
+    margin: auto auto;
     border-radius: 50%;
+
+    font-size: 22px;
+    font-weight: bold;
     background-color: rebeccapurple;
     text-align: center;
     line-height: 100px;
-    margin: auto auto;
+
+    transition: 1s;
 }
